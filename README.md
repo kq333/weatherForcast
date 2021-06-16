@@ -1,5 +1,7 @@
 # weather-app
 
+Simply weather forcast + geolocation
+
 ## Project setup
 ```
 npm install
