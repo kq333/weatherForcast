@@ -2,6 +2,8 @@
 
 Simply weather forcast + geolocation
 
+website: https://confident-blackwell-5918a1.netlify.app
+
 ## Project setup
 ```
 npm install
