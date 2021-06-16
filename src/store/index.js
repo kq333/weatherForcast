@@ -28,7 +28,7 @@ export default new Vuex.Store({
 
     async  getSearchResults({commit}, query){
       const res = await axios.get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${query}&appid=027ee07fafd9a678d925c3a9220c1289`
+        `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=027ee07fafd9a678d925c3a9220c1289`
       )
       commit('returnResults', {res})
 
@@ -40,7 +40,7 @@ export default new Vuex.Store({
             const lats = position.coords.latitude
             const lons =  position.coords.longitude
 
-            const getData =  axios.get(`http://api.openweathermap.org/data/2.5/weather?lat=${lats}&lon=${lons}&appid=027ee07fafd9a678d925c3a9220c1289`)
+            const getData =  axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lats}&lon=${lons}&appid=027ee07fafd9a678d925c3a9220c1289`)
             .then(res=>{
              return  res
             })
