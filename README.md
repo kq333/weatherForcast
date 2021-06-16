@@ -2,7 +2,7 @@
 
 Simply weather forcast + geolocation
 
-website: https://confident-blackwell-5918a1.netlify.app
+website: https://loving-tesla-d0b6f0.netlify.app
 
 ## Project setup
 ```
