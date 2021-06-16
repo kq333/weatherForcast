@@ -1,6 +1,6 @@
 # weather-app
 
-Simply weather forcast + geolocation
+Simply forcast weather + geolocation
 
 website: https://loving-tesla-d0b6f0.netlify.app
 
